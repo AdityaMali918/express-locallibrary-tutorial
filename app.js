@@ -49,7 +49,7 @@ app.use(limiter);
 // Set up mongoose connection
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
-const mongoDB = process.env.MONGODB_URI; // Use environment variable
+const mongoDB = "mongodb+srv://user_31:QBWs9QmsK75SDGYL@cluster0.yqzcvqb.mongodb.net/local_library?retryWrites=true&w=majority"; // Use environment variable
 
 main().catch((err) => console.log(err));
 async function main() {
