@@ -49,7 +49,8 @@ app.use(limiter);
 // Set up mongoose connection
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
-const mongoDB = "mongodb+srv://user_31:QBWs9QmsK75SDGYL@cluster0.yqzcvqb.mongodb.net/local_library?retryWrites=true&w=majority"; // Use environment variable
+//const mongoDB = "mongodb+srv://user_31:QBWs9QmsK75SDGYL@cluster0.yqzcvqb.mongodb.net/local_library?retryWrites=true&w=majority"; // Use environment variable
+const mongoDB = "mongodb+srv://user_31:QBWs9QmsK75SDGYL@cluster0.yqzcvqb.mongodb.net/local_library?retryWrites=true&w=majority";
 
 main().catch((err) => console.log(err));
 async function main() {
@@ -97,5 +98,5 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 
-
+//  "start": "pm2 start ./bin/www",
 //  // "start": "node ./bin/www",

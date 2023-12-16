@@ -6,7 +6,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "pm2 start ./bin/www",
+    "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
     "serverstart": "SET DEBUG=express-locallibrary-tutorial:* & npm run devstart"
   },
