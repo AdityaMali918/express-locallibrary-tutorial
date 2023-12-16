@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+vendor/
+
+# Optional: Editor directories and files
+.vscode/
+.idea/
+
+# Optional: OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment configuration
+.env
+
+# Optional: Build output
+build/
+dist/
+
+# Optional: Coverage output
+coverage/
+
+# Optional: Local configuration files
+*.config.js
